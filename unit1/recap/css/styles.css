@@ -1,0 +1,24 @@
+/*Universal Selector*/
+*{
+    margin: 0px;
+    padding:0px
+}
+/* ID Selector*/
+#container{
+    width:1140px;
+    min-height: 500px;
+    background-color: bisque;
+    margin:auto auto;
+}
+/* Class Selector*/
+.banner{
+    width:100%;
+    min-height: 150px;
+    background-color: chocolate;
+}
+
+h1{
+    font-size: x-large;
+    color:cornsilk;
+}
+

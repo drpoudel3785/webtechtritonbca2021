@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>HTML Frames</title>
+      <meta charset="utf-8" />
+   </head>
+   <frameset rows = "10%,70%,*" border="0" frameborder="0" framespacing="20">
+      <frame name = "top" src = "topframe.htm" noresize scrolling="no" />
+      <frameset cols="20%, 50%, *">
+         <frame name = "leftsidebar" src = "leftsidebar.htm" noresize />
+         <frame name = "main" src = "mainframe.htm" noresize />
+         <frame name = "rightsidebar" src = "rightsidebar.htm" noresize />
+      </frameset>
+      <frame name = "bottom" src = "bottomframe.htm" scrolling="no"  noresize />   
+      <noframes>
+         <body>Your browser does not support frames.</body>
+      </noframes> 
+   </frameset>
+
+
+
+
+   <br/>
+   
+</html>

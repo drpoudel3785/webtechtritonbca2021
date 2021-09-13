@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Site Layout</title>
+	<meta charset="utf-8" />
+	<meta name="author" content="Dharma Raj Poudel">
+</head>
+<body>
+<table border="1" width="100%">
+	<tr>
+		<td>Banner</td>
+	</tr>
+	<tr>
+		<td>Menu</td>
+	</tr>
+	
+
+	<tr>
+		<td>
+			<table width="100%">
+				<tr>
+					
+					<td>
+						<!--
+							<form>
+								  attributes 
+								   	  action="#"
+								      name=""
+								      method="GET/POST"
+								      enctype="multipart/form-data"
+								      other form elements
+								         <input  type="text" />
+												text
+												password
+												radio
+												checkbox
+												file
+												submit
+												reset
+												email
+												date
+												number
+  									         <select>
+												<option value="">Option</option>
+								          </select>
+								          <textarea>
+								          </textare>
+								          <button></button>
+								          <fieldset>
+								          	  <legend>name</legend>
+								          	</feildset>
+
+							</form>
+
+						-->
+
+						<form name="login" action="#" method="GET" enctype="multipart/form-data">
+							<fieldset>
+								<legend>Booking Form</legend>
+								
+								<input type="hidden" name="schoolID" value="10015" />
+								<input type="text" name="schoolID" value="10015" disabled readonly />
+								<br/>
+
+
+								<label>Full Name</label><br/>
+								<input  type="text" name="fname" placeholder="First Name" required="required">
+								<input  type="text" name="lname" placeholder="Last Name" required="required">
+								<br/>
+
+								<label>Email</label><br/>
+								<input type="email" name="email" placeholder="you@domain.com" required>
+								<br/>
+								
+								<label>Gender</label><br/>
+								<input type="radio" name="gender" value="M" checked="checked">Male
+								<input type="radio" name="gender" value="F" >Female
+								<input type="radio" name="gender" value="O" >Others
+								<br/> 
+
+								<label>DOB</label>
+								<br/>
+								<input type="date" name="dob"/>
+								<br/>
+								<lable>Course Interest</lable>
+								<br/>
+								<input type="checkbox" name="BCA" value="bca" />BCA
+								<input type="checkbox" name="BIT" value="bit" />BIT
+								<input type="checkbox" name="BSCIT" value="bca" />BSCIT
+								<input type="checkbox" name="BBS" value="bbs" />BBS
+								<br/>
+
+								<label>Recent PP Photo</label><br/>
+								<input type="file" name="photo" size="1024" />
+								<br/>
+								<label>Your District</label>
+								<br/>
+								<select name="district" size="1">
+									<option value="Kath">Kathmandu</option>
+									<option value="Lait">Lalitpur</option>
+									<option value="bhak">Bhaktapur</option>
+									<option value="kavr">Kavrepalanchok</option>
+								</select>
+								<br/>
+								<label>More Words...</label>
+								<br/>
+								<textarea rows="5" cols="30" name="morewords">
+								</textarea>
+
+								<br/>
+								<input type="submit" name="submit" value="Send" />
+								<input type="reset" name="reset" value="Clear"/>
+
+							</fieldset>
+						</form>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td>Footer</td>
+	</tr>
+</table>
+</body>
+</html> 
