@@ -31,11 +31,17 @@ $qry = mysqli_query($conn, $sql) or die ("Unable to insert the users");
 if($qry)
 {
     echo "User inserted successfully";
+
+    echo "<br/>";
+    echo '<a href="selectusers.php">All Users</a>';
 }
 
 mysqli_close($conn);
 
 }
+
+//course
+//id name description status
 
 ?>
 <!DOCTYPE html>
