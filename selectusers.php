@@ -45,7 +45,9 @@
                 echo "<td>".$row['email']."</td>";
                 echo "<td>".$row['role']."</td>";
                 echo "<td>".$row['status']."</td>";
-                echo "<td><a href=delete.php?uid=".$row['id'].">Delete</a></td>";
+                echo "<td>
+                <a href=edit.php?uid=".$row['id'].">EDIT</a>
+                <a href=delete.php?uid=".$row['id'].">Delete</a></td>";
                 echo "</tr>";
             }
           echo "</table>";
