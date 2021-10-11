@@ -1,4 +1,8 @@
 <?php
+include('inc_sessioncheck.php');
+?>
+
+<?php
 //INSERT INTO table(c1,c2,...)
 //VALUES (v1,v2,...);
 // id, username, password, email, role, status

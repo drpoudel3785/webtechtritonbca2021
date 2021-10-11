@@ -1,4 +1,8 @@
 <?php
+include('inc_sessioncheck.php');
+?>
+
+<?php
 if(isset($_GET['uid']))
 {
     $uid=$_GET['uid'];

@@ -1,3 +1,7 @@
+<?php
+include('inc_sessioncheck.php');
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
